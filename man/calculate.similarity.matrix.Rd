@@ -2,14 +2,14 @@
 % Please edit documentation in R/calculate_similarity_matrix.R
 \name{calculate.similarity.matrix}
 \alias{calculate.similarity.matrix}
-\title{calculate.similarity.matrix}
+\title{Calculate Similarity Matrix}
 \usage{
 calculate.similarity.matrix(spectra)
 }
 \arguments{
 \item{spectra}{Spectral signatures of fluorophores, normalized between 0 and 1,
 with fluorophores in rows and detectors (channels) in columns. More than one
-spectra are needed to calculate anything here.}
+spectra are needed to calculate anything here. Matrix or dataframe.}
 }
 \value{
 The similarity matrix for the spectral flow cytometry panel.

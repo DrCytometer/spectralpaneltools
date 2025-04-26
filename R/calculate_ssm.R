@@ -10,7 +10,7 @@
 #' spectra are needed to calculate anything here.
 #' @return The spillover spread matrix (ssm) for the
 #' spectral flow cytometry panel. Spread from row fluor into column fluor.
-#' @export
+#'
 
 calculate.ssm <- function( spectra ) {
 
