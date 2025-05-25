@@ -7,7 +7,7 @@
 #'     as JPEG files.
 #'
 #' @importFrom ggplot2 ggplot aes geom_path geom_point labs theme_minimal
-#' @importFrom ggplot2 element_text ggsave
+#' @importFrom ggplot2 element_text ggsave theme
 #' @importFrom tidyr pivot_longer
 #'
 #' @param spectra Matrix containing spectral data. Fluorophores in rows,

@@ -6,8 +6,8 @@
 #' @description This function plots a spectral matrix as a heatmap and saves it
 #'     as a JPEG file.
 #'
-#' @importFrom ggplot2 ggplot aes geom_tile scale_fill_viridis_c theme_minimal
-#' @importFrom ggplot2 coord_fixed element_text labs ggsave
+#' @importFrom ggplot2 ggplot aes geom_tile scale_fill_viridis_c
+#' @importFrom ggplot2 coord_fixed element_text labs ggsave theme theme_classic
 #' @importFrom tidyr pivot_longer
 #' @importFrom dplyr mutate %>%
 #'
