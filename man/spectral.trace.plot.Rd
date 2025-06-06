@@ -19,14 +19,16 @@ The fluorophore names should be the rownames of the matrix, and the only
 information in the matrix should be the normalized emission for each
 fluorescent detector channel.}
 
-\item{plot.title}{Character. Title for the plot.}
+\item{plot.title}{Character. Title for the plot.
+Default is \verb{Fluorophore Spectra}.}
 
-\item{file.name}{Character. Name for the output file. Path may be supplied.}
+\item{file.name}{Character. Name for the output file. Path may be supplied.
+Default is \verb{Spectra Plot.jpg}.}
 
-\item{line.width}{Numeric. Width of the traces on the plot. Default is 1.}
+\item{line.width}{Numeric. Width of the traces on the plot. Default is \code{1}.}
 
 \item{point.size}{Numeric. Size of the points on the traces at each detector.
-Default is 1.}
+Default is \code{1}.}
 }
 \value{
 Saves the plot as JPEG (or other) file.

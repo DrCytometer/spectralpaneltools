@@ -1,9 +1,13 @@
 Package: spectralpaneltools
 Title: Some Helpful Functions for Building Spectral Flow Panels
-Version: 0.0.1.00
+Version: 0.0.2.00
 Authors@R: 
-    person("Oliver", "Burton", , "olivertburton@gmail.com", 
-    role = c("aut", "cre"))
+    person(
+      "Oliver", "Burton",
+      email = "olivertburton@gmail.com",
+      role = c("aut", "cre"),
+      comment = c( ORCID = "0000-0003-3884-7373" )
+    )
 Description: Functions for calculating the similarity matrix and complexity index
     (AKA condition number) for spectral flow cytometry panels.
 License: MIT + file LICENSE

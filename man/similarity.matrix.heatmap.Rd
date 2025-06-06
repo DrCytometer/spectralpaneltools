@@ -15,16 +15,16 @@ similarity.matrix.heatmap(
 \item{spectra}{Data frame containing spectral data. Fluorophores in rows,
 detectors in columns.}
 
-\item{file.name}{Character string. Default is "Similarity Matrix.jpg". Provide
-a file path to save somewhere other than the working directory.}
+\item{file.name}{Character string. Default is \verb{Similarity Matrix.jpg}.
+Provide a file path to save somewhere other than the working directory.}
 
-\item{figure.width}{Numeric. Default is 8}
+\item{figure.width}{Numeric. Default is \code{8}}
 
-\item{figure.height}{Numeric. Default is 6}
+\item{figure.height}{Numeric. Default is \code{6}}
 }
 \value{
 Saves the heatmap plot as a JPEG file in the working directory or in
-the path provided as an argument to file.name.
+the path provided as an argument to \code{file.name}.
 }
 \description{
 This function plots the similarity matrix as a heatmap and saves

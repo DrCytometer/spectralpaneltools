@@ -7,9 +7,9 @@
 calculate.similarity.matrix(spectra)
 }
 \arguments{
-\item{spectra}{Spectral signatures of fluorophores, normalized between 0 and 1,
-with fluorophores in rows and detectors (channels) in columns. More than one
-spectra are needed to calculate anything here. Matrix or dataframe.}
+\item{spectra}{Spectral signatures of fluorophores, normalized between 0
+and 1, with fluorophores in rows and detectors (channels) in columns. More
+than one spectra are needed to calculate anything here. Matrix or dataframe.}
 }
 \value{
 The similarity matrix for the spectral flow cytometry panel.

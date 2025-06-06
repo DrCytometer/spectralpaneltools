@@ -3,13 +3,15 @@
 #' @title Calculate Complexity Index
 #'
 #' @description Calculates the complexity index (condition number) for a set of
-#'     fluorophores (a spectral panel).
+#' fluorophores (a spectral panel).
 #'
-#' @param spectra Spectral signatures of fluorophores, normalized between 0 and 1,
-#'     with fluorophores in rows and detectors (channels) in columns. More than one
-#'     spectra are needed to calculate anything here.
-#' @return The complexity index (condition number) for the
-#' spectral flow cytometry panel.
+#' @param spectra Spectral signatures of fluorophores, normalized between 0
+#' and 1, with fluorophores in rows and detectors (channels) in columns. More
+#' than one spectra are needed to calculate anything here.
+#'
+#' @return The complexity index (condition number) for the spectral flow
+#' cytometry panel.
+#'
 #' @export
 
 calculate.complexity.index <- function( spectra ) {
